@@ -1,0 +1,55 @@
+
+.aboutuser{
+    height: 70Vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     justify-content: center;
+    flex-direction: column;
+
+}
+.aboutContainer h1{
+    position: absolute;
+    top: 5%;
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.detail{
+     display: flex;
+    flex-direction: column;
+  
+}
+.userImage{
+}
+.profileImage{
+    border-radius: 50%;
+     height: 200px;
+     width:200px;
+}
+.profileImage:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+.file{
+   display: none;
+}   
+
+.userAbout{
+    font-size: 30px;
+    margin-top: 100px;
+    max-width: 200px;
+    max-width: 400px;
+    height: fit-content;
+    font-size: medium;
+    background: none;
+    border:none;
+    border-bottom: 3px solid darkgreen;
+}
+
+.uploadButton{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px ;
+   
+}

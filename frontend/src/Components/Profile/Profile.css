@@ -1,0 +1,85 @@
+.profileContainer{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.userDetail{
+    flex: 1;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+     margin-top: 30px;
+  
+}
+.userProfileAndBlog{
+    flex: 3;
+    overflow-x: hidden;
+    height: 95vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+/* .details{                                                                                                                                                                                                                                                                                                                                    
+    text-align: center//
+} */
+#userImage{                                                                                                                                                                                                                                                                                                                                 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  
+}
+.detaiTablel{
+    text-align: center;
+    border: 20px soldi black;
+    font-size: 15px;
+}
+.heading{
+    color: darkgreen;
+    text-align: center;
+}
+.detaiTablel td{
+    border-bottom: 1px solid darkgreen;
+    padding: 10px;
+}
+.editButton{
+    border:none;
+    margin-top: 30px;
+    padding: 10px 10px;
+    width: 250px;
+}
+.add{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media(max-width:1060px){
+    .profileContainer{
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+  .userProfileAndBlog{
+      width: 100%;
+      overflow: visible;
+      
+  }
+}
+@media(max-width:460px){
+    .profileContainer{
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+  .add{
+      margin-bottom: 190px;
+  }
+}

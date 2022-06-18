@@ -1,0 +1,96 @@
+body{
+
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardholder{
+    width: 100;
+  background-image: url("../../../public/login_images/background.jpeg");
+   background-repeat: no-repeat;
+  background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 100vh;
+
+}
+.custamcard{
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: white;
+    display: flex;
+ justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.login{
+    text-align: center;
+    padding :20px 49px;
+}
+.img img{
+    margin: 30px;
+    width: 400px;
+    height: 499px;
+}
+.login-form{
+    overflow:auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    text-decoration: none;
+    color:darkgreen
+}
+.link:hover{
+    color:#78e08f;
+}
+.login-form input{
+    font-size: 24px;
+    margin-top: 10px;
+    border: none;
+    padding: 5px ;
+    border-bottom: 1px solid darkgreen;
+}
+.sign{
+    background-color: white;
+    border: none;
+    color:darkgreen
+}
+.sign:hover{
+    color:#78e08f;
+}
+.login-button{
+        border: none;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
+.forget{
+    margin-top: 10px;
+}
+@media (max-width:1080px){
+    .img{
+        display: none;
+        margin: 0;
+    }
+    .login-form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .login{
+        min-width:280px;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .login input{
+        max-width: 200px;
+        max-width: 240px;
+    }
+    
+    .login-form{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}

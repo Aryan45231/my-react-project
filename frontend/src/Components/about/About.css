@@ -1,0 +1,41 @@
+.ourTeam{
+    margin-top: 120px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.Cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    flex-wrap: wrap;
+    border: 3px solid;
+    border-radius: 50px;
+}
+.card{
+    width: 260px;
+    height:fit-content;
+    margin: 10px;
+    padding: 4px;
+    border: 3px solid;
+    border-radius: 50px;
+
+    /* background-color: yellow; */
+}
+.card:hover{
+    width: max-content;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    size-adjust:inherit;
+}
+@media(max-width:460px){
+    .Cards{
+        margin-bottom:90px;
+      
+    }
+    .ourTeam{
+        margin: 10px;
+    }
+}

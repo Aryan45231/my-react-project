@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+     margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.mainHolder{
+        margin-top:40px ;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.mainContainer{
+    transition-property: all;
+    transition-duration: 2s;
+    height: 70vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDLyL3kPCyk--BD-krtaPYW__DsNUs6gZsvty3WS1v&s");
+    background-size: cover;
+    display: flex;
+    width: 75vw
+}
+.mainContainer:hover{
+    font-size: 15px;
+        
+}
+.bloggerDetail{
+    display: flex;
+     height: fit-content;
+     align-items: center;
+
+}
+.bloggerDetail *{
+    margin: 10px;
+}
+.bloggerDetail:hover{
+    transition: background-color 2s;
+}
+.BloggerImag{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.aboutBlog{
+    width: 80vw;
+    /* flex-wrap: wrap;
+    display: flex;
+    margin: 20px;
+    align-items:center;
+    transition-property: all;
+    transition-delay: 0;
+    transition-duration: 2s;
+    justify-content: center; */
+  
+    color: white;
+}
+.link{
+    color:black
+}
+.bloggerDetail{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.bloggerDetail:hover{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
+.aboutBlog h1{
+    width: fit-content;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    
+    background-color: rgba(246, 242, 242, 0.6);
+    background-size: 0;
+    transition:  all  2s ;
+    color: black;
+}
+.readBlog{
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    width: fit-content;
+}
+.readBlog button{
+    background-color: rgba(60, 156, 12, 0.7);
+    border: none;
+    color: white;
+    width:150px;
+    padding: 5px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 20px;
+}
+.feetback{
+    width: relative;
+}
+
+.feetBackData {
+    width: 100%;
+    display: flex;
+
+}
+.feetBackData *{
+    margin: 10px    ;
+}
+.feedBackControl{
+    display: flex;
+     border-top: 1px solid black;
+}
+.feedBackControl *{
+    font-size: 24px;
+    margin: 0 10px  ;
+}
+.feedBackControl button{
+    color: darkolivegreen;
+    background-color: white;
+    border: none;
+}
+@media(max-width:1060px) {
+    .mainContainer,.aboutBlog{
+        width: 98vw;
+    }
+}
+@media(max-width:460px) {
+    .main{
+        margin-top: 10px;
+        width: 98vw;
+        margin-bottom: 90px;
+    }
+}

@@ -1,0 +1,68 @@
+.likeContainer{
+    display: flex;
+    align-items: center; 
+
+}
+.likeHead{
+    text-align: center;
+}
+.contents{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.likepeople{
+    margin-top: 40px;
+    min-width: 250px;
+  padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.likeContainer{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.likepeps{
+    min-width: 40vw;
+    max-width: 100vw;
+   border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.likepeople{
+    display: flex;
+    align-items: center;
+    min-width: 50vw;
+    max-width: 100vw;
+}
+.likeProfike{
+    margin-right:20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.back{
+    background-color: white;
+    border: none;
+}
+@media(max-width:650px){
+    .likepeps{
+        min-width: 90vw;
+    }
+    .likepeople{
+        min-width: 80vw;
+    }
+    .likeProfike{
+        margin-right:20px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .likepeople h2{
+        font-size: 20px;
+    }
+}
